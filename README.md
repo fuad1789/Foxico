@@ -1,4 +1,3 @@
 # Vue 3 + Vite
 
-https://github.com/fuad1789/Foxico/assets/96668119/4b743172-d32e-4063-9985-794eca5d55d3
-
+![b64539066d5448daa480d612bf68d6c0-00001](https://github.com/fuad1789/Foxico/assets/96668119/a96cf157-92aa-4ac7-b020-d5a426970d7f)
