@@ -14,5 +14,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  filter: brightness(67%) contrast(111%) saturate(83%);
 }
 </style>

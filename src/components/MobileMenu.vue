@@ -3,7 +3,6 @@
     class="container-mobilemenu"
     :style="[isActiveMenu ? { top: '90px' } : { top: '-300px' }]"
   >
-  
     <div class="links-mobilemenu">
       <h4>Hello , Anney</h4>
       <p>News</p>
@@ -32,6 +31,10 @@ export default {
   border-radius: 20px;
   overflow: hidden;
   transition: all 300ms ease-in-out;
+  z-index: 1000;
+  -webkit-box-shadow: 0px 2px 38px -8px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 2px 38px -8px rgba(0, 0, 0, 0.69);
+  box-shadow: 0px 2px 38px -8px rgba(0, 0, 0, 0.69);
 }
 
 .links-mobilemenu {
@@ -61,5 +64,4 @@ export default {
   padding: 10px 0;
   border-bottom: 1px solid #292929;
 }
-
 </style>

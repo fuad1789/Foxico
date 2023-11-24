@@ -17,8 +17,8 @@
 }
 
 .container-logo h1 {
-    font-weight: 700;
-    font-size: 1.7em;
-    color: aliceblue;
+  font-weight: 700;
+  font-size: 1.7em;
+  color: aliceblue;
 }
 </style>
