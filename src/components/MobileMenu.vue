@@ -1,7 +1,7 @@
 <template>
   <div
     class="container-mobilemenu"
-    :style="[isActiveMenu ? { right: '30px' } : { right: '-300px' }]"
+    :style="[isActiveMenu ? { top: '90px' } : { top: '-300px' }]"
   >
   
     <div class="links-mobilemenu">
@@ -31,7 +31,7 @@ export default {
   background-color: #fff;
   border-radius: 20px;
   overflow: hidden;
-  transition: all 500ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
 
 .links-mobilemenu {

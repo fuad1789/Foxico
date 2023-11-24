@@ -42,8 +42,12 @@ export default {
 
   methods: {
     openInput() {
-      this.isActive = true;
-      this.$refs.input.focus();
+      if (window.innerWidth > 500) {
+        this.isActive = true;
+        this.$refs.input.focus();
+      }else{
+        this.$router.push("/search")
+      }
     },
     closeInput() {
       this.isActive = false;
@@ -65,11 +69,6 @@ export default {
   transition: all 500ms;
 }
 
-.container-searchbox:hover {
-  box-shadow: 1px 3px 10px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -1px 5px 66px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -1px 5px 66px 0px rgba(0, 0, 0, 0.75);
-}
 .active {
   border-radius: 20px;
   padding: 0 10px;

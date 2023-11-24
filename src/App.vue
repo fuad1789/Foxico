@@ -1,16 +1,10 @@
 <script setup>
-import BackgroundImage from "./components/BackgroundImage.vue";
-import NavBar from "./components/NavBar.vue";
-import Layout from "./components/Layout.vue";
+import { RouterView } from "vue-router";
+
 </script>
 
 <template>
-  <div @click="clickWhere">
-    <BackgroundImage />
-    <Layout>
-      <NavBar />
-    </Layout>
-  </div>
+  <RouterView />
 </template>
 
 <script></script>

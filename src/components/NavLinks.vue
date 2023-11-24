@@ -67,6 +67,7 @@ export default {
   justify-content: center;
   gap: 20px;
   color: #fff;
+  overflow-x: hidden;
 }
 .container-navlinks p {
   cursor: pointer;
